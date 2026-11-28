@@ -56,3 +56,33 @@ d1 = 3 + 4j
 d2 = 5 - 2j
 print("d1:", d1, "type:", type(d1))
 print("d2:", d2, "type:", type(d2))
+print(d1 + d2)
+
+#字符串
+print("=========字符串========")
+e1 = "Hello, World!"
+e2 = 'Python'
+e3 = """This is a multi-line string.
+It can span multiple lines."""
+e4 = '''This is another multi-line string.
+It can also span multiple lines.'''
+
+print("e1:", e1)
+print("e2:", e2)
+print("e3:", e3)
+print("e4:", e4)
+
+#转义符
+f1 = "Hello, \"Python\"!"
+f2 = r"Hello, \"Python\"!"
+f3 = R"Hello, \"Python\"!"
+print("f1:", f1)
+print("f2:", f2)
+print("f3:", f3)
+
+#布尔类型
+print("=========布尔类型========")
+g1 = True
+g2 = False
+print("g1:", g1, "type:", type(g1))
+print("g2:", g2, "type:", type(g2))
