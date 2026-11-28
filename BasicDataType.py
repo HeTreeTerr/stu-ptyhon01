@@ -92,6 +92,9 @@ print("g2:", g2, "type:", type(g2))
 #转整数
 h1 = int(3.14)
 print("h1:", h1, "type:", type(h1))
+
+# ValueError: invalid literal for int() 
+#h1 = int("12条")
 #转浮点
 h2 = float(5)
 print("h2:", h2, "type:", type(h2))
