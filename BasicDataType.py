@@ -86,3 +86,18 @@ g1 = True
 g2 = False
 print("g1:", g1, "type:", type(g1))
 print("g2:", g2, "type:", type(g2))
+
+
+#类型转换
+#转整数
+h1 = int(3.14)
+print("h1:", h1, "type:", type(h1))
+#转浮点
+h2 = float(5)
+print("h2:", h2, "type:", type(h2))
+#转字符串
+h3 = str(123)
+print("h3:", h3, "type:", type(h3))
+#转字符
+h4 = chr(65)
+print("h4:", h4, "type:", type(h4))
